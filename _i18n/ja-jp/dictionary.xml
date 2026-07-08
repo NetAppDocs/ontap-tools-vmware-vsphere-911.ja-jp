@@ -257,10 +257,8 @@
   <block id="578d9149fa04c3d4f2229ad419fbfec3" category="doc">ONTAP ツールを導入するための要件</block>
   <block id="e263045e30d0d45525a6c848d8439da4" category="inline-link-macro">VMware vSphere 用の ONTAP ツールを導入またはアップグレードする</block>
   <block id="5554fa88014dbf4d13c04c07b516f822" category="paragraph"><block ref="5554fa88014dbf4d13c04c07b516f822" category="inline-link-macro-rx"></block></block>
-  <block id="f941583eff3ed87da8d807407294540f" category="paragraph"><block ref="f941583eff3ed87da8d807407294540f" category="inline-link-macro-rx"></block></block>
   <block id="b4985c4f7663e3e799236852df85319e" category="inline-link-macro">VMware vSphere 用の ONTAP ツールを使用して設定される ESXi ホストの値</block>
   <block id="fceaf78f3c73355fe250db66743fa112" category="list-text"><block ref="fceaf78f3c73355fe250db66743fa112" category="inline-link-macro-rx"></block></block>
-  <block id="52b95ac1087cc8a2310e7b2234240c33" category="list-text"><block ref="52b95ac1087cc8a2310e7b2234240c33" category="inline-link-macro-rx"></block></block>
   <block id="6f09e89fc23fe62b14a19eb0d48c896b" category="summary">VMware vSphere 用の ONTAP ツール 9.x リリースでは、最新バージョンへのインプレースアップグレードがサポートされています。</block>
   <block id="5584c9cd70ee56e5a5efd81211571c12" category="paragraph">Virtual Storage Console 6.x 、 Storage Replication Adapter 2.x 、 3.x 、 4.x 、 VASA Provider 6.x などの個々のアプリケーションの以前のリリースでは、異なるアップグレードプロセスが使用されます。これらの旧バージョンの VSC 、 VASA Provider 、または SRA が環境にインストールされている場合は、次の処理を実行する必要があります。</block>
   <block id="0aed96d12200abba996f178b4112706d" category="list-text">最新リリースの ONTAP ツールを導入します。</block>
@@ -347,8 +345,6 @@
   <block id="a919e368cdc2a31db9bf251c27d9df05" category="paragraph">データストアの IOPS を表示するには、 Storage I/O Control を有効にするか、 Storage I/O Control の設定でストレージ I/O 統計の収集を無効にするチェックボックスをオフにする必要があります。Storage I/O Control は、 VMware の Enterprise Plus ライセンスがある場合にのみ有効にできます。</block>
   <block id="334d1eb45fc0c2dc8df94b8b513b8df4" category="inline-link">Storage I/O Control のトラブルシューティング</block>
   <block id="1a5f6041f129f43810f85de306ad33b2" category="list-text"><block ref="1a5f6041f129f43810f85de306ad33b2" category="inline-link-rx"></block></block>
-  <block id="6cb4e4fceb86a9c3efe7f9d4e5d29473" category="inline-link">Storage I/O Control の要件</block>
-  <block id="fcafb33f3f1e5ad308452fccb673af13" category="list-text"><block ref="fcafb33f3f1e5ad308452fccb673af13" category="inline-link-rx"></block></block>
   <block id="943a0a91e2e47ea889874a0788bdea47" category="summary">VMware vSphere 用の ONTAP ® ツールでは、ストレージシステムの検出とストレージクレデンシャルの設定を単一のメカニズムで行います。クレデンシャルに基づいて、 Virtual Storage Console （ VSC ）ユーザがストレージシステムを使用してタスクを実行するために必要な ONTAP 権限が付与されます。</block>
   <block id="9cc972d9d143fabc9fda2f980da526aa" category="doc">VMware vSphere ストレージシステム用に ONTAP ® ツールを設定する</block>
   <block id="70d0d796e1ae8de516c95867f195e5f2" category="paragraph">VMware vSphere 用の ONTAP ® ツールでは、ストレージシステムの検出とストレージクレデンシャルの設定を単一のメカニズムで行います。クレデンシャルに基づいて、 Virtual Storage Console （ VSC ）ユーザがストレージシステムを使用してタスクを実行するために必要な ONTAP アクセス許可が付与されます。</block>
@@ -911,7 +907,6 @@
   <block id="35a2998dbc95ad29cf2c17c7e32ca02a" category="list-text">vCenter Server インスタンスにログインします。</block>
   <block id="ff562f9edd82624104457532dabfa10c" category="list-text">統合アプライアンス仮想マシンを使用してメンテナンスコンソールを起動します。</block>
   <block id="ca5adffd751c55bab8647e73f43c9a6f" category="inline-link-macro">VMware vSphere 用 ONTAP ツールのメンテナンスコンソール</block>
-  <block id="e1c25f116be14443f1be68bd0203b3f2" category="paragraph"><block ref="e1c25f116be14443f1be68bd0203b3f2" category="inline-link-macro-rx"></block></block>
   <block id="4591e39d6632a521e5254805b9b57550" category="list-text">入力するコマンド<block ref="a87ff679a2f3e71d9181a67b7542122c" prefix=" " category="inline-code"></block> をクリックして、[Support and Diagnostics]オプションにアクセスします。</block>
   <block id="c632036bc16a5039974e4d090f83cc3c" category="list-text">入力するコマンド<block ref="c81e728d9d4c2f636f067f89cc14862c" prefix=" " category="inline-code"></block> [Access Diagnostic Shell]オプションにアクセスします。</block>
   <block id="503bdf665b30cc4811c73b5416b38634" category="list-text">入力するコマンド<block ref="44583d034fbdf4f1cfadc49e3dce15f4" prefix=" " category="inline-code"></block> を更新します<block ref="4373f01a4baf69f5e2a57adf9279e719" prefix=" " category="inline-code"></block> ファイル。</block>
@@ -1062,7 +1057,6 @@
   <block id="56d43ad1a280ada5e16fd2960ae44b32" category="list-text">SRM の場合</block>
   <block id="03b870ced8b149ca765fa1ffe2f8b770" category="paragraph">SRM のインストールについては、 VMware サイトのドキュメントを参照してください。</block>
   <block id="4617dd5a7193927c5552182931541c9c" category="inline-link">VMware Site Recovery Manager のドキュメント</block>
-  <block id="2b27cdd9529ad91885c6c019ee8329ee" category="paragraph"><block ref="2b27cdd9529ad91885c6c019ee8329ee" category="inline-link-rx"></block></block>
   <block id="406292f3c5b20715e348f48fa5e6d6e3" category="list-text">SRA</block>
   <block id="5964a20b29586f71f419711aae6ae487" category="paragraph">アダプタは SRM にインストールされます。</block>
   <block id="39d642e40fbcd108eb0ab15715ee349d" category="list-text">保護対象サイトで、プライマリ ESXi ホストがプライマリストレージシステムの LUN に接続されていることを確認します。</block>
@@ -1371,7 +1365,6 @@
   <block id="193f5724aa76560510625d6930654372" category="paragraph">仮想マシンを監視してオペレーティングシステムの障害やハードウェアの障害を検出し、リソースプール内の他の物理サーバ上の仮想マシンを再起動します。サーバの障害が検出された場合、手動での対応は不要です。</block>
   <block id="fddbfde8381a8cd2ead18c94350d2a14" category="paragraph">VMware HA を設定する手順は、 vCenter Server のバージョンによって異なります。VMware HA の設定手順を確認するには、次の参照先で必要な vCenter Server のバージョンを選択してください。</block>
   <block id="1d5795cd94cc0753911dd6bc7e4121e0" category="inline-link">VMware vSphere のドキュメント：「 vSphere HA クラスタの作成と使用</block>
-  <block id="57913afe7758e6ac629330a6211986c2" category="paragraph"><block ref="57913afe7758e6ac629330a6211986c2" category="inline-link-rx"></block></block>
   <block id="93cf0ce401485ea512d0cebd7aa9a5b6" category="summary">vCenter Server の RBAC を使用すると、 vSphere オブジェクトへのアクセスを制御できます。VMware vSphere 用の ONTAP ® ツールでは、 vCenter Server RBAC と ONTAP RBAC により、特定のストレージシステムのオブジェクトに対して特定のユーザが実行できる VSC タスクが決まります。</block>
   <block id="a2b6bdbaa7f478b53edca02553c0dd6b" category="doc">ONTAP ツールでのロールベースアクセス制御の概要</block>
   <block id="f737dbfa4bc20b26d0a2b6647fa12dbb" category="paragraph">vCenter Server の RBAC を使用すると、 vSphere オブジェクトへのアクセスを制御できます。VMware vSphere 用の ONTAP ® ツールでは、 vCenter Server RBAC と ONTAP RBAC により、特定のストレージシステムのオブジェクトに対して特定のユーザが実行できる VSC タスクが決まります。</block>
@@ -1389,7 +1382,6 @@
   <block id="b36e85751d57920856a667a70fbd44c3" category="paragraph"><block ref="b36e85751d57920856a667a70fbd44c3" category="inline-link-macro-rx"></block></block>
   <block id="3932191a381dc130ecf8b7f97d887769" category="list-text">RBAC User Creator for ONTAP ツール（ ONTAP 9.6 以前を使用している場合）</block>
   <block id="3c25e2e440e9f31af6d29f0e44415780" category="inline-link">VSC 、 VASA Provider 、 Storage Replication Adapter 7.0 for VMware vSphere 用の RBAC User Creator ツール</block>
-  <block id="6b2d93598a0b579fbc8c679697788778" category="paragraph"><block ref="6b2d93598a0b579fbc8c679697788778" category="inline-link-rx"></block></block>
   <block id="69e3a1dff1352bb06840dbcbff566e40" category="list-text">ONTAP を使用して、ロールが割り当てられ、適切なアプリケーションが設定されたユーザを作成します</block>
   <block id="a4e90f544f0d8ede6e2023d539fef693" category="paragraph">作成したストレージシステムクレデンシャルは、 VSC 用にストレージシステムを構成する際に必要になります。VSC 用のストレージシステムを構成するには、 VSC でクレデンシャルを入力する必要があります。これらのクレデンシャルを使用してストレージシステムにログインすると、クレデンシャルの作成時に ONTAP で設定した VSC 機能に対する権限が付与されます。</block>
   <block id="82e8b78ffb3455f0a5df307de255c3dc" category="list-text">VSC にストレージシステムを追加し、作成したユーザのクレデンシャルを指定します</block>
@@ -1506,7 +1498,6 @@
   <block id="95954e13c3fd02d60d2176c6788c994a" category="paragraph">vCenter Server インスタンスで vSphere FT を設定するには、システムが CPU 要件、仮想マシンの制限要件、およびライセンス要件を満たしている必要があります。</block>
   <block id="66c5b34575bb610e09f6281aecda93e6" category="paragraph">HA を設定する手順は、 vCenter Server のバージョンによって異なります。HA の設定手順を確認するには、次の参照先で必要な vCenter Server のバージョンを選択してください。</block>
   <block id="9c506678975809e892cfdd7c14758cae" category="inline-link">VMware vSphere のドキュメント：「 Fault Tolerance の要件、制限、およびライセンス</block>
-  <block id="20422418e9f27ff480459f880734075a" category="paragraph"><block ref="20422418e9f27ff480459f880734075a" category="inline-link-rx"></block></block>
   <block id="2bf690158e044812ab33988c70464eba" category="summary">ONTAP ツールはハイアベイラビリティ（ HA ）構成をサポートしており、障害時に ONTAP ツールが中断なく機能するようにします。</block>
   <block id="08bab46947b750954e0eb5a840fc8f07" category="doc">ONTAP ツールのハイアベイラビリティを設定する</block>
   <block id="dce64258471597417a6d344879f03532" category="paragraph">ONTAP ツールは、障害時に ONTAP ツールの機能を中断させないためのハイアベイラビリティ（ HA ）構成をサポートしています。</block>
@@ -1884,7 +1875,6 @@
   <block id="211c9db57cb6ce5c2e16c1ff37eaa820" category="doc">従来のダッシュボードを使用してパフォーマンスデータを分析</block>
   <block id="096926a9260db65d51c453dd6fe63a06" category="paragraph">Configure Storage I/O Control （ストレージ I/O 制御の設定）ダイアログボックスで、 Enable Storage I/O Control and statistics collection （ストレージ I/O 制御と統計の収集を有効にする） * または * Disable Storage I/O Control but enable statistics collection * のいずれかのオプションを選択する必要があります。Storage I/O Control は、 VMware の Enterprise Plus ライセンスがある場合にのみ有効にできます。</block>
   <block id="5900a4191170b6191797e473524d5bfd" category="inline-link">VMware vSphere のドキュメント：「 Storage I/O Control を有効にする</block>
-  <block id="b7a328ea0603bc67c4f6c59226da970a" category="paragraph"><block ref="b7a328ea0603bc67c4f6c59226da970a" category="inline-link-rx"></block></block>
   <block id="4a7619cde2c717f99a4aa51b8332f2e5" category="paragraph">従来のダッシュボードには、 vCenter Server から取得した IOPS 、使用スペース、レイテンシ、およびコミット済み容量の指標が表示されます。ONTAP は、従来のダッシュボードにアグリゲートのスペース削減の指標を提供します。特定のアグリゲートのスペース削減量を表示できます。これらのパフォーマンスパラメータを使用すると、仮想環境におけるパフォーマンスのボトルネックを特定し、問題を解決するための対処を行うことができます。</block>
   <block id="77fc87b2d4510a0bda82e14b45856ab6" category="paragraph">ONTAP ツールの従来のダッシュボードを使用すると、 NFS データストアまたは VMFS データストアを表示できます。データストアをクリックすると、 vCenter Server インスタンスのデータストアの詳細画面に移動して、 vCenter Server 内のデータストアに関する問題を確認および修正できます。</block>
   <block id="63a1762e79217ec6ff7ab30bd38f5de9" category="list-text">vSphere Client のホームページで、 * ONTAP tools for VMware vSphere* をクリックします。</block>
@@ -2001,4 +1991,16 @@
   <block id="5547d8d27b62c49e4555e1f79122a342" category="paragraph"><block ref="9e427bf42ac054021120757914ef1809" prefix="" category="inline-code"></block></block>
   <block id="b8ace162f3094fd5ac1138ced112d7a7" category="list-text">VMware vSphere Clientサービスを開始します。<block ref="bfbe7f4b006f6fcfc7bb66e075309067" prefix=" " category="inline-code"></block></block>
   <block id="20f1e803dc0cd0cd8a34402229733015" category="paragraph">ここに記載されている手順に従って、既存のONTAP Tools 9.10以降のリリースから最新リリースへのインプレース アップグレードを実行できます。</block>
+  <block id="1bd8d6ba09152f99a95ef603229c8ab1" category="paragraph"><block ref="1bd8d6ba09152f99a95ef603229c8ab1" category="inline-link-rx"></block></block>
+  <block id="a762e0db55d4d5808cdfea7fab5aee85" category="paragraph"><block ref="a762e0db55d4d5808cdfea7fab5aee85" category="inline-link-rx"></block></block>
+  <block id="b45e080eb5381df0e89c9d9dcf6c29c6" category="paragraph"><block ref="b45e080eb5381df0e89c9d9dcf6c29c6" category="inline-link-macro-rx"></block></block>
+  <block id="3d310145245c43d51e4f71d034e0107d" category="paragraph"><block ref="3d310145245c43d51e4f71d034e0107d" category="inline-link-rx"></block></block>
+  <block id="030c5a37181650fc00935fe9a88401c8" category="paragraph"><block ref="030c5a37181650fc00935fe9a88401c8" category="inline-link-rx"></block></block>
+  <block id="dd21e95246bd9b59a210f7335f293a0f" category="paragraph"><block ref="dd21e95246bd9b59a210f7335f293a0f" category="inline-link-macro-rx"></block></block>
+  <block id="98ce2155c1121498c5a221338cbeabba" category="inline-link">vSphere リソース管理</block>
+  <block id="2303e6aa70eff9f1c774171f6d746383" category="list-text"><block ref="2303e6aa70eff9f1c774171f6d746383" category="inline-link-rx"></block></block>
+  <block id="02d0a0958e73fd8f6b196e0763aac98c" category="paragraph"><block ref="02d0a0958e73fd8f6b196e0763aac98c" category="inline-link-macro-rx"></block></block>
+  <block id="a563fcea2bda3cf193363205e6468260" category="paragraph"><block ref="a563fcea2bda3cf193363205e6468260" category="inline-link-rx"></block></block>
+  <block id="da5ccd5e0d25abdde390a07b70563258" category="paragraph"><block ref="da5ccd5e0d25abdde390a07b70563258" category="inline-link-rx"></block></block>
+  <block id="3904b96e16e0546b33dbcc3f9cc072d0" category="paragraph"><block ref="3904b96e16e0546b33dbcc3f9cc072d0" category="inline-link-rx"></block></block>
 </blocks>
